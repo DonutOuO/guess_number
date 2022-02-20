@@ -1,6 +1,11 @@
 import random
 
-r= random.randint(1,100)
+min=input('請決定你的最小範圍:')
+max=input('請決定你的最大範圍:')
+
+min=int(min)
+max=int(max)
+r= random.randint(min,max)
 
 y=0
 
